@@ -1,0 +1,13 @@
+.texto__body{
+    position: absolute;
+    background: #de3152;
+    border: 4px solid #de3152!important;
+}
+.img__personal{
+    height: 37vh;
+}
+
+.puesto__personal{
+    display: inline-block;
+    border-color: #e22c57!important;
+}
