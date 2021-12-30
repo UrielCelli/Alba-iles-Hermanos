@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./sass/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
 
     <title>Albañiles Hermanos</title>
   </head>
   <body>
-    <div>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-warning">
-        <div class="container-fluid bg-warning">
-          <a class="navbar-brand fw-bolder font-monospace fs-2 text" href="#">AlHnos</a>
-                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <div class="body">
+     <nav class="navbar navbar-expand-lg navbar-light header">
+        <div class="container-fluid">
+          <a class=" header__logo navbar-brand fw-bolder font-monospace fs-2 text" href="#">AlHnos</a>
+                    <button class="header__toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav align-items-end fw-bold">
+          <div class="collapse navbar-collapse header__nav" id="navbarNav">
+            <ul class="navbar-nav align-items-end fw-bold header__navbar">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./pages/albañileria.html">Albañileria</a>
+                <a class="nav-link header__link" aria-current="page" href="./pages/albañileria.html">Albañileria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/plomeria.html">Plomeria</a>
+                <a class="nav-link header__link" href="./pages/plomeria.html">Plomeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/electricista.html">Electricista</a>
+                <a class="nav-link header__link" href="./pages/electricista.html">Electricista</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/contacto.html">Contactanos</a>
+                <a class="nav-link header__link" href="pages/contacto.html">Contactanos</a>
               </li>
             </ul>
           </div>
@@ -39,39 +39,39 @@
       </nav>
 
 <section>
-  <div class="background__body">
-  <h6 class="texto__body border border-3 rounded-pill">Confianos tu seguridad</h6>
+ <div class="body__imgflex">
+  <h6 class="body__texto border-3 rounded-pill">Confianos tu seguridad</h6>
+  <img src="./img/Albañil señalado.jpg" class="body__img" alt="albañiles">
+  <img src="./img/Construccion.jpg" class="body__img2"alt="">
+ </div>
 
- <img src="./img/Albañil señalado.jpg" class="" alt="albañiles">
-</div>
+ <div class="p-2 body__txt">
+   <p>lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum non sunt velit quae. Fugiat consectetur corrupti necessitatibus quo distinctio ducimus ex laudantium, quaerat labore, dignissimos pariatur vero beatae aliquid totam culpa dolores minus sunt alias maxime inventore, suscipit iusto reprehenderit! Perferendis, culpa. Dolorum reiciendis esse magnam minima voluptas sapiente ducimus quibusdam possimus! Blanditiis iste doloribus earum ea, odio delectus fuga nam qui voluptatum perferendis debitis reiciendis quasi repellat praesentium ex explicabo sapiente iusto? Odio dolorem laudantium distinctio sunt. Pariatur, neque voluptate beatae dolore commodi amet asperiores velit maiores error placeat, aperiam laudantium recusandae libero vitae in non ad facere repellendus dolor vero? Itaque natus, mollitia similique nesciunt ratione laudantium, nemo omnis nobis dolorum magnam, quo nihil sequi impedit adipisci! Molestias, voluptatem perspiciatis earum reiciendis ipsam excepturi porro nemo eius illum architecto. Doloremque molestias consequuntur tempore voluptatum eligendi reiciendis ea placeat odit laborum cumque a, rem illo magni sit. Esse necessitatibus provident asperiores officiis illum corrupti doloribus quasi voluptate. Repellendus praesentium, dolore sequi doloremque quod voluptatum amet adipisci ipsa quas accusamus provident accusantium assumenda at sint quibusdam reiciendis ipsum quo quos ullam aspernatur nam. Ducimus blanditiis distinctio a temporibus eaque cum sint! Quos sint officia sed debitis exercitationem similique incidunt. ipsum dolor sit amet consectetur adipisicing elit. Placeat nobis aliquid vel laudantium, similique, ea quae iusto rem dignissimos ipsam accusantium ipsa quod provident culpa ducimus deserunt, voluptas sed officia.</p>
+ </div>
 
-<div class="bg-success p-2 text-dark bg-opacity-25">
- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nobis aliquid vel laudantium, similique, ea quae iusto rem dignissimos ipsam accusantium ipsa quod provident culpa ducimus deserunt, voluptas sed officia.</p>
-</div>
-
-<div class="container bg-primary bg-gradient border">
+<div class="container body__personal border">
   <div class="row">
     <div class="col border border-2">
       <h3 class="border border-3 puesto__personal">Fundador</h3>
       <img class="img__personal rounded-circle " src="./img/Personal 3.jpg" alt="Fundador">
-      <p class="bg-primary.bg-gradient">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati omnis pariatur eligendi! Voluptatibus, minima labore!</p>
+      <p class="body__personaltxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati omnis pariatur eligendi! Voluptatibus, minima labore!</p>
     </div>
     <div class="col border border-2">
       <h4 class="border border-3 puesto__personal">Director </h4>
       <img class="img__personal rounded-circle" src="./img/Personal 2.jpg" alt="Directora">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptate incidunt, numquam reiciendis accusantium iusto</p>
+      <p class="body__personaltxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptate incidunt, numquam reiciendis accusantium iusto</p>
     </div>
     <div class="col border border-2 ">
       <h4 class="border border-3 puesto__personal">Directora</h4>
       <img class="img__personal rounded-circle" src="./img/Personal.jpg" alt="Directora">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae recusandae atque excepturi obcaecati eligendi sapiente.</p>
+      <p class="body__personaltxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae recusandae atque excepturi obcaecati eligendi sapiente.</p>
     </div>
   </div>
 </div>
 </section> 
-<footer>
+<footer class="footer">
   <div>
-    <img class="img-fluid img-thumbnail" src="./img/Construccion footer.jpg" alt="Construccion">
+    <img class="img-fluid footer__img" src="./img/Construccion footer.jpg" alt="Construccion">
   </div>
 </footer>     
 

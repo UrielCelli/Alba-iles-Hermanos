@@ -1,0 +1,40 @@
+.header{
+    
+      &__logo{
+          border: solid;
+          border-radius: 50%;
+          border-color: #ffffff96;
+          background-color: #dba400;
+             }
+      &__nav{
+
+          justify-content: flex-end;
+      }
+      &__navbar{
+        align-content: center;
+        flex-wrap: wrap;
+
+      }
+
+      &__link{
+        border: solid;
+        border-color: #ffffff96;
+        background-color: #dba400;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: #ffa50073 3px 2px 3px;
+      }
+      &__toggler{
+          background-color: #dba400;
+          padding: 0.25rem 0.75rem;
+          font-size: 1.25rem;
+          line-height: 1;
+          border-radius: 0.25rem;
+          transition: box-shadow .15s ease-in-out;
+      }
+       
+}
+
+.headera{
+  background-color: #00000087;
+}

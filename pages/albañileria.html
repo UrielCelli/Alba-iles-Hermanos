@@ -6,47 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../sass/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <title>Albañiles Hermanos</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-warning">
-      <div class="container-fluid bg-warning">
-        <a class="navbar-brand fw-bolder font-monospace fs-2 text" href="#">AlHnos</a>
-                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <body class="bodya">
+    <nav class="navbar navbar-expand-lg navbar-light header headera">
+      <div class="container-fluid">
+        <a class=" header__logo navbar-brand fw-bolder font-monospace fs-2 text" href="#">AlHnos</a>
+                  <button class="header__toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav align-items-end fw-bold">
+        <div class="collapse navbar-collapse header__nav" id="navbarNav">
+          <ul class="navbar-nav align-items-end fw-bold header__navbar">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link header__link" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="plomeria.html">Plomeria</a>
+              <a class="nav-link header__link" href="./plomeria.html">Plomeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="electricista.html">Electricista</a>
+              <a class="nav-link header__link" href="./electricista.html">Electricista</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contactanos</a>
+              <a class="nav-link header__link" href="./contacto.html">Contactanos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
+
     <section>
       <div>
-        <h3 class="bg-danger p-2 text-dark bg-opacity-50">Contrata nuestro servicio de albañileria</h3>
-        <img src="../img/Albañileria.jpg" alt="Albañil">
-        <p class="bg-danger p-2 text-dark bg-opacity-25">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, sit recusandae at aspernatur eos ipsa quibusdam, quis aperiam magni sequi fuga minima porro vero autem voluptas ea expedita repellendus ratione.</p>
+           <h3 class="bg-danger p-2 text-dark bg-opacity-50 bodya__title">Contrata nuestro servicio de albañileria</h3>
+      </div>
+      <div class="body__imgflex">
+           <img class="body__img" src="../img/Albañileria.jpg" alt="Albañil">
+           <img class="body__img2" src="../img/Albanileria2.jpg" alt="albanil">
+      </div>
+      <div>
+        <p class="bg-danger p-2 text-dark bg-opacity-25 bodya__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae sint quis in iste voluptates a fugit ex ipsa. Facilis neque harum corrupti maxime vero doloremque explicabo nemo aperiam porro a. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ex soluta eligendi, molestias aspernatur a dolore voluptatum iusto necessitatibus qui aliquam suscipit illo sint aliquid. Harum accusamus odio rem repudiandae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere assumenda dolor provident deleniti magni, quibusdam laudantium atque. Itaque obcaecati nam quisquam beatae dolor placeat reprehenderit fugit minus vitae, earum aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto corporis consequatur dolorum voluptate magni aut delectus dolor in distinctio commodi ducimus ad vitae, sed quae, pariatur, temporibus explicabo aliquam earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, sit recusandae at aspernatur eos ipsa quibusdam, quis aperiam magni sequi fuga minima porro vero autem voluptas ea expedita repellendus ratione.</p>
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
       <div>
-        <img class="img-fluid img-thumbnail" src="../img/Construccion footer.jpg" alt="Construccion">
+        <img class="img-fluid footer__img" src="../img/Construccion footer.jpg" alt="Construccion">
       </div>
     </footer>     
     
