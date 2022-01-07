@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.header {
+  background-color: #00000087;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .header__logo {
   border: solid;
   border-radius: 50%;
@@ -41,12 +48,23 @@
   transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
 }
 
-.headera {
-  background-color: #00000087;
-}
-
 .body {
   background-image: url(https://fondosmil.com/fondo/57241.jpg);
+}
+
+.body__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: underline;
+  font-size: 3rem;
 }
 
 .body__texto {
@@ -124,21 +142,6 @@
   background-image: url(https://previews.123rf.com/images/paktaotik2/paktaotik21505/paktaotik2150500353/39965292-fondo-de-cemento-h%C3%BAmedo-para-la-construcci%C3%B3n-.jpg);
 }
 
-.bodya__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: underline;
-  font-size: 3rem;
-}
-
 .bodya__txt {
   margin-right: 9vw;
   margin-left: 3vw;
@@ -151,12 +154,38 @@
   height: 75vh;
 }
 
+/*/ Contacto /*/
+.bodyc {
+  background-color: #dfdfdf;
+}
+
+.bodyc__form {
+  padding: 20px;
+}
+
+.bodyc__formtxt {
+  padding: 10px;
+}
+
+/*/electricista/*/
+.electricista {
+  margin: auto;
+  display: block;
+  height: 60vh;
+}
+
+/*/plomero/*/
+.plomero {
+  margin: auto;
+  display: block;
+  height: 60vh;
+}
+
 .footer {
   background-color: #00000087;
 }
 
 .footer__img {
-  width: 34vw;
   margin: auto;
   display: block;
 }

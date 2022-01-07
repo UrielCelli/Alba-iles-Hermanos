@@ -1,5 +1,7 @@
 .header{
-    
+  background-color: #00000087;
+    position: sticky;
+    top: 0;
       &__logo{
           border: solid;
           border-radius: 50%;
@@ -31,10 +33,7 @@
           line-height: 1;
           border-radius: 0.25rem;
           transition: box-shadow .15s ease-in-out;
+
       }
        
-}
-
-.headera{
-  background-color: #00000087;
 }
