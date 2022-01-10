@@ -1,8 +1,7 @@
 .footer{
-    background-color: #00000087;
+    background-color: map-get($colores, negro-transp);
 
     &__img{
-        margin: auto;
-        display: block;
+        @extend %centrado;
     }
 }

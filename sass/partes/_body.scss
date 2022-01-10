@@ -1,5 +1,5 @@
 .body{
-    background-image: url(https://fondosmil.com/fondo/57241.jpg);
+    background-image: url(../../img/Fondo2.png);
     
     &__title{
     
@@ -17,6 +17,9 @@
     }  
        &__imgflex{
            display: flex;
+           @include moviles{
+               flex-direction: column;
+           }
        }
 
        &__img{
@@ -25,6 +28,11 @@
         margin-left: 5vw;
         border-radius: 10px;
         display: inline-block;
+        @include moviles{
+            width: auto;
+            margin-left: 0;
+
+        }
        }
 
        &__img2{
@@ -32,7 +40,17 @@
            border-radius: 10px;
            margin-left: auto;
            margin-right: 13vw;
+           @include moviles{
+               width: auto;
+               margin-left: 0;
+               margin-right: 0;
+           }
 
+       }
+       &__imgtxt{
+           @include moviles{
+
+           }
        }
 
        &__txt{
@@ -41,7 +59,7 @@
            height: 50vh;
            color: #b7b7b7ed;
            overflow: hidden;
-           background-image: url(https://img.freepik.com/foto-gratis/fondo-pared-pizarra-pizarra-negra_28629-1625.jpg?size=626&ext=jpg);
+           background-image: url(../../img/fondo-pizarra.jpg);
            background-size: contain;
            border: solid;
            border-width: 8px;
@@ -50,12 +68,12 @@
         }
         
         &__personal{
-            background-image: url(https://previews.123rf.com/images/stillfx/stillfx1707/stillfx170700013/81865467-bordes-de-construcci%C3%B3n-sobre-fondo-de-acero-cepillado-.jpg);
+            background-image: url(../../img/fondo-personal.png);
             background-position: bottom;
         }   
        
         &__personaltxt{
-            background-color: #ffffff99;
+            background-color: map-get($colores, blanco-transp );
             border: solid;
             border-color: #5d2b18ad;
         }
@@ -67,7 +85,7 @@
     display: flex;
     border: solid;
     border-width: thick;
-    border-color: #a5a500;
+    border-color: map-get($colores , amarillo );
 }
 
 .puesto__personal{
@@ -79,7 +97,7 @@
 /*/Albañileria/*/
 
 .bodya{
-    background-image:url(https://previews.123rf.com/images/paktaotik2/paktaotik21505/paktaotik2150500353/39965292-fondo-de-cemento-h%C3%BAmedo-para-la-construcci%C3%B3n-.jpg);
+    background-image:url(../../img/Fondo2.png);
 
 
     &__txt{
@@ -109,17 +127,10 @@
 
 }
 
-/*/electricista/*/
-.electricista{
-    margin: auto;
-    display: block;
-    height: 60vh;
-
+/*/electricista y plomero/*/
+@each $profesion in electricista, plomero {
+    .#{$profesion} {
+    @extend %centrado;
+    height: 60vh;}
+    
 }
-/*/plomero/*/
-.plomero{
-    margin: auto;
-    display: block;
-    height: 60vh;
-}
-

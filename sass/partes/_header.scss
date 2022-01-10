@@ -1,12 +1,13 @@
+@import "./variables";
 .header{
-  background-color: #00000087;
+  background-color: map-get($colores , negro-transp );
     position: sticky;
     top: 0;
       &__logo{
           border: solid;
           border-radius: 50%;
-          border-color: #ffffff96;
-          background-color: #dba400;
+          border-color: map-get($colores, blanco-transp);
+          background-color: map-get($colores, amarillo);
              }
       &__nav{
 
@@ -20,14 +21,14 @@
 
       &__link{
         border: solid;
-        border-color: #ffffff96;
-        background-color: #dba400;
+        border-color: map-get($colores, blanco-transp );
+        background-color: map-get($colores, amarillo );
         margin: 5px;
         border-radius: 10px;
         box-shadow: #ffa50073 3px 2px 3px;
       }
       &__toggler{
-          background-color: #dba400;
+          background-color: map-get($colores, amarillo);
           padding: 0.25rem 0.75rem;
           font-size: 1.25rem;
           line-height: 1;

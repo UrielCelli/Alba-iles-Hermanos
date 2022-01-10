@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.electricista, .plomero, .footer__img {
+  margin: auto;
+  display: block;
+}
+
 .header {
   background-color: #00000087;
   position: -webkit-sticky;
@@ -49,7 +54,7 @@
 }
 
 .body {
-  background-image: url(https://fondosmil.com/fondo/57241.jpg);
+  background-image: url(../../img/Fondo2.png);
 }
 
 .body__title {
@@ -80,12 +85,28 @@
   display: flex;
 }
 
+@media screen and (max-width: 425px) {
+  .body__imgflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .body__img {
   width: 34vw;
   height: auto;
   margin-left: 5vw;
   border-radius: 10px;
   display: inline-block;
+}
+
+@media screen and (max-width: 425px) {
+  .body__img {
+    width: auto;
+    margin-left: 0;
+  }
 }
 
 .body__img2 {
@@ -95,13 +116,21 @@
   margin-right: 13vw;
 }
 
+@media screen and (max-width: 425px) {
+  .body__img2 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .body__txt {
   margin-left: 5vw;
   margin-right: 5vw;
   height: 50vh;
   color: #b7b7b7ed;
   overflow: hidden;
-  background-image: url(https://img.freepik.com/foto-gratis/fondo-pared-pizarra-pizarra-negra_28629-1625.jpg?size=626&ext=jpg);
+  background-image: url(../../img/fondo-pizarra.jpg);
   background-size: contain;
   border: solid;
   border-width: 8px;
@@ -110,12 +139,12 @@
 }
 
 .body__personal {
-  background-image: url(https://previews.123rf.com/images/stillfx/stillfx1707/stillfx170700013/81865467-bordes-de-construcci%C3%B3n-sobre-fondo-de-acero-cepillado-.jpg);
+  background-image: url(../../img/fondo-personal.png);
   background-position: bottom;
 }
 
 .body__personaltxt {
-  background-color: #ffffff99;
+  background-color: #ffffff96;
   border: solid;
   border-color: #5d2b18ad;
 }
@@ -130,7 +159,7 @@
   display: flex;
   border: solid;
   border-width: thick;
-  border-color: #a5a500;
+  border-color: #dba400;
 }
 
 .puesto__personal {
@@ -139,7 +168,7 @@
 
 /*/Albañileria/*/
 .bodya {
-  background-image: url(https://previews.123rf.com/images/paktaotik2/paktaotik21505/paktaotik2150500353/39965292-fondo-de-cemento-h%C3%BAmedo-para-la-construcci%C3%B3n-.jpg);
+  background-image: url(../../img/Fondo2.png);
 }
 
 .bodya__txt {
@@ -167,26 +196,16 @@
   padding: 10px;
 }
 
-/*/electricista/*/
+/*/electricista y plomero/*/
 .electricista {
-  margin: auto;
-  display: block;
   height: 60vh;
 }
 
-/*/plomero/*/
 .plomero {
-  margin: auto;
-  display: block;
   height: 60vh;
 }
 
 .footer {
   background-color: #00000087;
-}
-
-.footer__img {
-  margin: auto;
-  display: block;
 }
 /*# sourceMappingURL=main.css.map */
