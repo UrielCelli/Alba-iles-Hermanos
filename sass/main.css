@@ -83,6 +83,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 5vh;
 }
 
 @media screen and (max-width: 425px) {
@@ -127,7 +128,7 @@
 .body__txt {
   margin-left: 5vw;
   margin-right: 5vw;
-  height: 50vh;
+  height: auto;
   color: #b7b7b7ed;
   overflow: hidden;
   background-image: url(../../img/fondo-pizarra.jpg);
@@ -136,6 +137,11 @@
   border-width: 8px;
   border-color: #673321;
   border-radius: 10px;
+}
+
+.body__txt--parrafo {
+  font-family: emoji;
+  font-size: 1.7rem;
 }
 
 .body__personal {
@@ -174,13 +180,20 @@
 .bodya__txt {
   margin-right: 9vw;
   margin-left: 3vw;
-  font-size: x-large;
+  font-size: 1.7rem;
   border: solid;
   border-radius: 5px;
   border-color: #00000085;
-  font-weight: 400;
+  font-weight: 500;
   overflow: hidden;
-  height: 75vh;
+  height: auto;
+}
+
+.bodya__txt--fondo {
+  background-color: #ffffff40;
+  border: solid;
+  border-radius: 5px;
+  border-color: #00000087;
 }
 
 /*/ Contacto /*/
@@ -203,6 +216,15 @@
 
 .plomero {
   height: 60vh;
+}
+
+.bodye__txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer {
