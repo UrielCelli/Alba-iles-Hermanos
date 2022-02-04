@@ -4,4 +4,16 @@
     &__img{
         @extend %centrado;
     }
+
+    &__redes{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        background-color: black;
+        font-size: 0.8rem;
+    }
+    &__redsocial{
+        display: flex;
+        align-items: center;
+    }
  }

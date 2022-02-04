@@ -1,5 +1,10 @@
 .body{
-    background-image: url(../../img/Fondo2.png);
+    background-color: antiquewhite ;
+    &__contenedor{
+        background-color: #842029a8;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
     
     &__title{
     
@@ -8,16 +13,16 @@
         justify-content: center;
         text-decoration: underline;
         font-size: 3rem;
+        margin: 0px;
     }
     &__texto{
        position: absolute;
        background: #de3152;
        border: 4px solid #de3152 !important; 
-       left: 6vw;
+       left: 11vw;
     }  
        &__imgflex{
            display: flex;
-           margin-bottom: 5vh;
            @include moviles{
                flex-direction: column;
            }
@@ -102,13 +107,13 @@
 /*/Albañileria/*/
 
 .bodya{
-    background-image:url(../../img/Fondo2.png);
+    background-color: antiquewhite;
 
 
     &__txt{
     margin-right: 9vw;
-    margin-left: 3vw;
-    font-size: 1.7rem;
+    margin-left: 5vw;
+    font-size: 1.125rem;
     border: solid;
     border-radius: 5px;
     border-color: #00000085;
