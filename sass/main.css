@@ -239,6 +239,14 @@
   color: white;
 }
 
+@media screen and (max-width: 425px) {
+  .bodya__boton {
+    position: static;
+    padding-top: 4vh;
+    border-width: 5px;
+  }
+}
+
 .bodya__boton:hover {
   background-color: #F69DA1;
   -webkit-transition-duration: 0.4s;
@@ -275,6 +283,14 @@
   left: 32vw;
 }
 
+@media screen and (max-width: 425px) {
+  .bodyp__boton {
+    position: static;
+    padding-top: 2vh;
+    border-width: 5px;
+  }
+}
+
 .bodyp__boton:hover {
   background-color: #d11619;
   color: #072d52;
@@ -287,6 +303,14 @@
   background-color: orange;
   border-color: #e7c079;
   color: antiquewhite;
+}
+
+@media screen and (max-width: 425px) {
+  .bodye__boton {
+    position: static;
+    padding-top: 2vh;
+    border-width: 5px;
+  }
 }
 
 .bodye__boton:hover {

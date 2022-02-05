@@ -145,6 +145,11 @@
         background-color:#f2595e;
         border-color: #F69DA1;
         color: white;
+        @include moviles{
+            position: static;
+            padding-top: 4vh;
+            border-width: 5px;
+        }
         
     }
     &__boton:hover{
@@ -181,6 +186,11 @@
     border-color: #2383e1;
     color: #d11619;
     left: 32vw;   
+    @include moviles{
+        position: static;
+        padding-top: 2vh;
+        border-width: 5px;
+    }
 }
 .bodyp__boton:hover{
     background-color: #d11619;
@@ -196,6 +206,11 @@
       background-color: orange;
       border-color: #e7c079;
       color: antiquewhite;
+      @include moviles{
+        position: static;
+        padding-top: 2vh;
+        border-width: 5px;
+      }
   }
   &__boton:hover{
       background-color: #ffc107;
