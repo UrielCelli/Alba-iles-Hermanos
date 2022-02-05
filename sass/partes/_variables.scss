@@ -4,6 +4,15 @@ $colores:(
     negro-transp: #00000087
 
 );
+%botones{
+    position: absolute;
+    border: solid  ;
+    font-size: 20px;
+    left: 33vw;
+    text-decoration:none;
+    border-radius: 5px;
+    padding: 8px;
+}
 
 %centrado{
     margin: auto;

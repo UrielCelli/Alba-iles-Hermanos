@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.bodya__boton, .bodyp__boton, .bodye__boton {
+  position: absolute;
+  border: solid;
+  font-size: 20px;
+  left: 33vw;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
 .electricista, .plomero, .footer__img {
   margin: auto;
   display: block;
@@ -39,6 +49,12 @@
   border-radius: 10px;
   -webkit-box-shadow: #ffa50073 3px 2px 3px;
           box-shadow: #ffa50073 3px 2px 3px;
+}
+
+.header__link:hover {
+  background-color: #ffffff96;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .header__toggler {
@@ -183,6 +199,20 @@
   background-color: antiquewhite;
 }
 
+.bodya__img {
+  width: 34vw;
+  border-radius: 10px;
+}
+
+.bodya__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .bodya__txt {
   margin-right: 9vw;
   margin-left: 5vw;
@@ -200,6 +230,19 @@
   border: solid;
   border-radius: 5px;
   border-color: #00000087;
+}
+
+.bodya__boton {
+  top: 107vh;
+  background-color: #f2595e;
+  border-color: #F69DA1;
+  color: white;
+}
+
+.bodya__boton:hover {
+  background-color: #F69DA1;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 /*/ Contacto /*/
@@ -222,6 +265,34 @@
 
 .plomero {
   height: 60vh;
+}
+
+.bodyp__boton {
+  background-color: #072d52;
+  top: 118vh;
+  border-color: #2383e1;
+  color: #d11619;
+  left: 32vw;
+}
+
+.bodyp__boton:hover {
+  background-color: #d11619;
+  color: #072d52;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.bodye__boton {
+  top: 130vh;
+  background-color: orange;
+  border-color: #e7c079;
+  color: antiquewhite;
+}
+
+.bodye__boton:hover {
+  background-color: #ffc107;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .bodye__txt {

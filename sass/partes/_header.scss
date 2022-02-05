@@ -27,6 +27,11 @@
         border-radius: 10px;
         box-shadow: #ffa50073 3px 2px 3px;
       }
+      &__link:hover{
+        background-color: map-get($colores, blanco-transp);
+        transition-duration: 0.4s;
+
+      }
       &__toggler{
           background-color: map-get($colores, amarillo);
           padding: 0.25rem 0.75rem;

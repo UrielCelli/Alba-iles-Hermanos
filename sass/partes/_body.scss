@@ -109,6 +109,17 @@
 .bodya{
     background-color: antiquewhite;
 
+    &__img{
+        width: 34vw;
+        border-radius: 10px;
+
+    }
+
+    &__contenedor{
+        display: flex ;
+        justify-content: center
+    }
+
 
     &__txt{
     margin-right: 9vw;
@@ -126,6 +137,20 @@
         border: solid;
         border-radius: 5px;
         border-color: map-get($colores, negro-transp );
+    }
+
+    &__boton{
+       @extend %botones;
+        top: 107vh;
+        background-color:#f2595e;
+        border-color: #F69DA1;
+        color: white;
+        
+    }
+    &__boton:hover{
+        background-color: #F69DA1;
+        transition-duration: 0.4s;
+
     }
 
 }
@@ -149,8 +174,39 @@
     height: 60vh;}
     
 }
+.bodyp__boton{
+    @extend %botones;
+    background-color: #072d52;
+    top: 118vh;
+    border-color: #2383e1;
+    color: #d11619;
+    left: 32vw;   
+}
+.bodyp__boton:hover{
+    background-color: #d11619;
+    color: #072d52;
+    transition-duration: 0.4s;
+}
 
-.bodye__txt{
+.bodye{ 
+
+  &__boton{
+      @extend %botones;
+      top: 130vh;
+      background-color: orange;
+      border-color: #e7c079;
+      color: antiquewhite;
+  }
+  &__boton:hover{
+      background-color: #ffc107;
+      transition-duration: 0.4s;
+
+
+  }
+
+  &__txt{
     display: flex;
     justify-content: center;
+}
+
 }
